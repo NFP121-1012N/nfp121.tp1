@@ -109,8 +109,7 @@ public class Picture {
         if(!laTerreEstFixe){
             laTerreEstFixe = true;
             sun.slowMoveVertical(300);
-            sun2.slowMoveVertical(300);
-        }
+         }
     }
     
     /**
@@ -121,7 +120,6 @@ public class Picture {
         if(laTerreEstFixe){
             laTerreEstFixe = false;
             sun.slowMoveVertical(-300);
-            sun2.slowMoveVertical(-300);
         }
 
 }
